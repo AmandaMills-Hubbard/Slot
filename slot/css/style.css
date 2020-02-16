@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+h1 {
+  color: black;
+  font-weight: bold;
+  font-size: 50px;
+  margin-bottom: 100px;
+}
+body{
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(back.gif);
+  text-align: center;
+}
+.box {
+  height: 100px;
+  width: 20%;
+  float: left;
+  margin: 10px;
+}
+#play{
+  width: 5%;
+  height: 20px;
+  background-image: url(back.gif);
+  color: gold;
+  border-radius: 5px;
+  border-color: black;
+}
+
+.fruits {
+  display: none;
+  height: 100%;
+}
+span{
+  font-weight: bold;
+  color: gold;
+  font-size: 30px;
+}
